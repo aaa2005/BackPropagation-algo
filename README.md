@@ -3,7 +3,7 @@ a test for the BackPropagation algorithm implimented in c++ to learn a basic Log
 
 # Details
 - The Logic Expression is
-  ```bash
+  ```cpp
   not(A or B) xor C
   ```
 
@@ -12,14 +12,14 @@ a test for the BackPropagation algorithm implimented in c++ to learn a basic Log
 
 # layers
 
-Input Layer : 2 neurons
-1'st Hidden Layer : 5 neurons
-2'nd Hidden Layer : 5 neurons
-Output Layer : 2 neurons
+- Input Layer : 2 neurons
+- 1'st Hidden Layer : 5 neurons
+- 2'nd Hidden Layer : 5 neurons
+- Output Layer : 2 neurons
 
 
 # Compiling
 
-```bash
+```cpp
 g++ main.cpp -o main
 ```
